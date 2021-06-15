@@ -88,7 +88,7 @@ export default function AddPersonRest(props) {
   return (
     <div>
       <br />
-      <h3 className="text-center">Add Person With Rest</h3>
+      <h3 className="text-center">Add developer With Rest</h3>
       <br />
       <form
         className="form-horizontal"
@@ -110,7 +110,7 @@ export default function AddPersonRest(props) {
         </div>
         <div className="form-group">
           <label className="control-label col-sm-3" htmlFor="street">
-            Job:
+            BillingPrHour:
           </label>
           <div className="col-sm-9">
             <input
@@ -118,13 +118,13 @@ export default function AddPersonRest(props) {
               className="form-control"
               name="title"
               id="job"
-              placeholder="Enter Job Title"
+              placeholder="Enter BillingPrHour"
             />
           </div>
         </div>
         <div className="form-group">
           <label className="control-label col-sm-3" htmlFor="zip">
-            Nickname:
+            Email:
           </label>
           <div className="col-sm-9">
             <input
@@ -132,13 +132,13 @@ export default function AddPersonRest(props) {
               className="form-control"
               name="nickName"
               id="nickName"
-              placeholder="Enter Nickname"
+              placeholder="Enter Email"
             />
           </div>
         </div>
         <div className="form-group">
           <label className="control-label col-sm-3" htmlFor="city">
-            Hobby:
+            Phone:
           </label>
           <div className="col-sm-9">
             <input
@@ -146,7 +146,7 @@ export default function AddPersonRest(props) {
               className="form-control"
               name="name"
               id="hobby"
-              placeholder="Enter Hobby"
+              placeholder="Enter Phone"
             />
           </div>
         </div>

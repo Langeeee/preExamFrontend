@@ -1,2 +1,2 @@
-const SERVER_URL = "https://codergram.dk/startcode_exam";
+const SERVER_URL = "http://localhost:8080/jpareststarter";
 export { SERVER_URL };
