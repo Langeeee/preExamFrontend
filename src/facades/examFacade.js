@@ -32,6 +32,10 @@ function apiFacade() {
     utils.fetchAny(SERVER_URL + "/api/persons/" + id, callback, "PUT", person);
   }
 
+  function deleteDeveloperRest(id, callback) {
+    utils.fetchAny(SERVER_URL + "/api/exam" + id, callback, "DELETE");
+  }
+
   /**
    * PROXY
    */
@@ -76,7 +80,12 @@ function apiFacade() {
     utils.fetchAny(SERVER_URL + "/api/proxy/jokes", callback);
   }
 
+ 
+
   return {
+    deleteDeveloperRest,
+
+
     getPersons,
     getMapsNoDTO,
     getMapsWithDTO,

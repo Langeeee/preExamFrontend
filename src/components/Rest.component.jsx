@@ -30,7 +30,7 @@ const Rest = (props) => {
           </li>
           <li>
           <NavLink activeClassName="active" to="/person-rest">
-              All Developers
+              All Projects
             </NavLink>
           </li>
           
