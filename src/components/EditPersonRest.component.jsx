@@ -115,7 +115,7 @@ export default function EditPersonRest(props) {
   return (
     <div>
       <br />
-      <h3 className="text-center">Edit Person With Rest</h3>
+      <h3 className="text-center">Edit Developer With Rest</h3>
       <br />
       {person.id !== 0 ? (
         ""
@@ -157,7 +157,7 @@ export default function EditPersonRest(props) {
           </div>
           <div className="form-group">
             <label className="control-label col-sm-3" htmlFor="street">
-              Job:
+              Billing Pr Hour:
             </label>
             <div className="col-sm-9">
               <input
@@ -165,14 +165,14 @@ export default function EditPersonRest(props) {
                 className="form-control"
                 name="title"
                 id="job"
-                placeholder="Enter Job Title"
+                placeholder="Enter Billing Pr Hour"
                 defaultValue={job.title}
               />
             </div>
           </div>
           <div className="form-group">
             <label className="control-label col-sm-3" htmlFor="zip">
-              Nickname:
+              Email:
             </label>
             <div className="col-sm-9">
               <input
@@ -180,14 +180,14 @@ export default function EditPersonRest(props) {
                 className="form-control"
                 name="nickName"
                 id="nickName"
-                placeholder="Enter Nickname"
+                placeholder="Enter Email"
                 defaultValue={nickName.nickName}
               />
             </div>
           </div>
           <div className="form-group">
             <label className="control-label col-sm-3" htmlFor="city">
-              Hobby:
+              Phone:
             </label>
             <div className="col-sm-9">
               <input
@@ -195,7 +195,7 @@ export default function EditPersonRest(props) {
                 className="form-control"
                 name="name"
                 id="hobby"
-                placeholder="Enter Hobby"
+                placeholder="Enter Phone"
                 defaultValue={hobby.name}
               />
             </div>

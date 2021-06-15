@@ -29,20 +29,27 @@ const Rest = (props) => {
             </NavLink>
           </li>
           <li>
+          <NavLink activeClassName="active" to="/person-rest">
+              All Developers
+            </NavLink>
+          </li>
+          
+          <li>
             <NavLink activeClassName="active" to="/person-rest">
-              All Persons
+              All Developers
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="active" to="/add-person-rest">
-              Add Person
+              Add Developer
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="active" to="/edit-person-rest">
-              Edit Person
+              Edit Developer
             </NavLink>
           </li>
+          
         </ul>
 
         <Switch>
